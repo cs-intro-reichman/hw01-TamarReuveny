@@ -10,9 +10,9 @@ public class Triangle {
 
 	    int b = Integer.parseInt(args[1]);
 
-	    int c = Integer.parseInt(args[2]);
+		int c = Integer.parseInt(args[2]);
 
-	    if (a+b>c && a+c>b && b+c>a) {
+	    if ((a+b>c) && (a+c>b) && (b+c>a)) {
 
 	    	System.out.println(a + ", " + b + ", " + c + ": true");
 
@@ -20,6 +20,6 @@ public class Triangle {
 
 	    		System.out.println(a + ", " + b + ", " + c + ": false");
 
-}
+	    	}    	
 }
 }
