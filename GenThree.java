@@ -22,7 +22,7 @@ public class GenThree {
 			// if (random < minimal) {
 			// 	minimal = random;
 			// }
-			minmal = Math.min(minimal, random);
+			minimal = Math.min(minimal, random);
 		}
 		
 		System.out.println("The minimal generated number was " + minimal);	
